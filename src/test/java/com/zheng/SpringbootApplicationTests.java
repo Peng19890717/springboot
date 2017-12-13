@@ -32,7 +32,7 @@ public class SpringbootApplicationTests {
 		userMapper.insert("lisi", 2);
 		userMapper.insert("wangwu", 3);
 		userMapper.insert("zhaoliu", 4);
-
+        System.out.print("gitTest");
 		User user = userMapper.findByName("lisi");
 		System.out.println(user.getId());
 
