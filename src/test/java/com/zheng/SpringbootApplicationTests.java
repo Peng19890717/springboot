@@ -28,7 +28,7 @@ public class SpringbootApplicationTests {
 //		Assert.assertEquals("111", stringRedisTemplate.opsForValue().get("aaa"));
 		System.out.println("=============================== redis end ===============================");
 
-		userMapper.insert("zhangsan", 1);
+		userMapper.insert("zhangsanl", 1);
 		userMapper.insert("lisi", 2);
 		userMapper.insert("wangwu", 3);
 		userMapper.insert("zhaoliu", 4);
