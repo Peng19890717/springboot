@@ -33,7 +33,7 @@ public class SpringbootApplicationTests {
 		userMapper.insert("wangwu", 3);
 		userMapper.insert("zhaoliu", 4);
         System.out.print("gitTest");
-		User user = userMapper.findByName("lisi测试冲突");
+		User user = userMapper.findByName("lisi测试冲突的");
 		System.out.println(user.getId());
 
 	}
